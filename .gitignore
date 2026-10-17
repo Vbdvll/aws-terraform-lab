@@ -1,0 +1,20 @@
+# Fichiers binaires et plugins téléchargés
+**/.terraform/*
+.terraform/
+
+# Fichiers d'état locaux contenant les métadonnées de l'infra
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Fichiers de variables contenant des valeurs sensibles
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Fichiers de verrouillage CLI temporaires
+.terraform.tfstate.lock.info
